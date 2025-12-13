@@ -4,6 +4,9 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Dialogs
 
+import Qt.labs.platform as Platform
+
+
 ScrollView {
     //property var warehouseManager: WarehouseManager
 
@@ -102,11 +105,87 @@ ScrollView {
     FileDialog {
         id: saveReportDialog
         title: "Сохранить отчет"
-        nameFilters: ["Текстовые файлы (*.txt)", "Все файлы (*)"]
+        fileMode: FileDialog.SaveFile
+        acceptLabel: "Сохранить"
+        nameFilters: [
+            "PDF-документы (*.pdf)",
+            "Текстовые файлы (*.txt)",
+            "Все файлы (*)"
+        ]
+        // Добавляем стандартное имя файла
+        currentFile: StandardPaths.writableLocation(StandardPaths.DocumentsLocation) + "/report.pdf"
+
         onAccepted: {
-            console.log("Сохранить в:", saveReportDialog.currentFile);
-            // TODO: реализация сохранения
+            // Получаем выбранный файл через currentFile
+            var fileUrl = currentFile;
+
+            console.log("Выбран файл (URL):", fileUrl);
+            console.log("Путь (string):", currentFile.toString());
+
+            if (!fileUrl || fileUrl.toString() === "") {
+                console.warn("Не выбран файл");
+                return;
+            }
+
+            // Преобразуем QUrl в локальный путь
+            var filePath = "";
+            if (typeof fileUrl === "string") {
+                filePath = fileUrl;
+            } else {
+                filePath = fileUrl.toString();
+            }
+
+            // Убираем префикс file://
+            if (filePath.startsWith("file://")) {
+                filePath = decodeURIComponent(filePath.substring(7));
+            }
+
+            console.log("Сохранение в путь:", filePath);
+
+            // Проверяем расширение и добавляем при необходимости
+            var lowerPath = filePath.toLowerCase();
+            if (selectedNameFilter === "PDF-документы (*.pdf)" && !lowerPath.endsWith(".pdf")) {
+                filePath += ".pdf";
+            } else if (selectedNameFilter === "Текстовые файлы (*.txt)" && !lowerPath.endsWith(".txt")) {
+                filePath += ".txt";
+            }
+
+            console.log("Итоговый путь:", filePath);
+
+            // Сохраняем
+            var result;
+            if (selectedNameFilter === "PDF-документы (*.pdf)" ||
+                filePath.toLowerCase().endsWith(".pdf")) {
+                result = warehouseManager.saveReportAsPdf(reportContent.text, filePath);
+            } else {
+                result = warehouseManager.saveReportAsText(reportContent.text, filePath);
+            }
+
+            console.log("Результат сохранения:", result);
         }
+    }
+
+    // Вспомогательная функция для показа сообщений
+    function showMessage(title, text) {
+        var component = Qt.createComponent("MessageDialog.qml");
+        if (component.status === Component.Ready) {
+            var dialog = component.createObject(root);
+            dialog.title = title;
+            dialog.text = text;
+            dialog.open();
+        }
+    }
+
+    function urlToLocalPath(urlValue) {
+        if (typeof urlValue === "string") {
+            if (urlValue.startsWith("file://")) {
+                return decodeURIComponent(urlValue.substring(7));
+            }
+            return urlValue;
+        } else if (urlValue && typeof urlValue.toLocalFile === "function") {
+            return urlValue.toLocalFile();
+        }
+        return "";
     }
 
     // Обновление состояния кнопок

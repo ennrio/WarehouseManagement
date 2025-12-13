@@ -1,5 +1,11 @@
 #include "warehousemanager.h"
 #include <QDebug>
+#include <QPrinter>
+#include <QPainter>
+#include <QTextDocument>
+#include <QPageLayout>
+#include <QFileInfo>
+#include <QDir>
 
 
 
@@ -226,6 +232,49 @@ ExpiredReport *WarehouseManager::generateExpiredReport(Warehouse *warehouse, con
     ExpiredReportFactory factory(warehouse);
     Report* report = generateReport(&factory, reportId);
     return static_cast<ExpiredReport*>(report);
+}
+
+QString WarehouseManager::saveReportAsPdf(const QString &content, const QString &filePath)
+{
+    qDebug() << "Сохранение PDF:";
+    qDebug() << "  Путь:" << filePath;
+    qDebug() << "  Длина текста:" << content.length();
+    qDebug() << "  Первые 100 символов:" << content.left(100);
+
+    if (content.isEmpty() || filePath.isEmpty()) {
+        return "Ошибка: пустой отчёт или путь.";
+    }
+
+    QFileInfo fileInfo(filePath);
+    QDir dir = fileInfo.dir();
+    qDebug() << "  Папка существует:" << dir.exists();
+    if (dir.exists()) {
+        // Проверка записи через создание временного файла
+        QFile testFile(dir.filePath("__test_write__.tmp"));
+        bool canWrite = testFile.open(QIODevice::WriteOnly);
+        if (canWrite) testFile.remove();
+        qDebug() << "  Папка доступна на запись:" << canWrite;
+    }
+
+    QPrinter printer;
+    printer.setOutputFormat(QPrinter::PdfFormat);
+    printer.setOutputFileName(filePath);
+    printer.setPageMargins(QMarginsF(15, 15, 15, 15), QPageLayout::Millimeter);
+
+    QTextDocument document;
+    document.setPlainText(content);
+    document.setDefaultFont(QFont("Courier", 10));
+
+
+    document.print(&printer);
+
+    if (QFile::exists(filePath)) {
+        qDebug() << "✅ Файл PDF успешно создан!";
+        return "Отчёт сохранён: " + filePath;
+    } else {
+        qDebug() << "❌ Файл НЕ создан. Возможные причины: недопустимый путь, спецсимволы, отсутствие PrintSupport.";
+        return "Не удалось сохранить PDF: " + filePath;
+    }
 }
 
 void WarehouseManager::destroyInstance() {

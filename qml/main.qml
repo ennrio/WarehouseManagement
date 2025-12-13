@@ -17,12 +17,12 @@ ApplicationWindow {
         // Инициализация тестовыми данными
         warehouseManager.addWarehouse("WH-001", "Санкт-Петербург, ул. Ленина 1", 100);
         warehouseManager.addWarehouse("WH-002", "Москва, ул. Тверская 5", 150);
-        warehouseManager.addEmployeeWithWarehouse("EMP-001", "Иванов И.И.", "Кладовщик",
-                                                  "ivanov@wh.ru", "WH-001");
-        warehouseManager.addEmployeeWithWarehouse("EMP-002", "Петров П.П.", "Менеджер",
-                                                  "petrov@wh.ru", "WH-001");
-        warehouseManager.addEmployeeWithWarehouse("EMP-003", "Сидорова А.С.", "Приемщик",
-                                                  "sidorova@wh.ru", "WH-002");
+        // warehouseManager.addEmployeeWithWarehouse("EMP-001", "Иванов И.И.", "Кладовщик",
+        //                                           "ivanov@wh.ru", "WH-001");
+        // warehouseManager.addEmployeeWithWarehouse("EMP-002", "Петров П.П.", "Менеджер",
+        //                                           "petrov@wh.ru", "WH-001");
+        // warehouseManager.addEmployeeWithWarehouse("EMP-003", "Сидорова А.С.", "Приемщик",
+        //                                           "sidorova@wh.ru", "WH-002");
 
         // ✅ ДОБАВЬТЕ ТЕСТОВЫЕ ТОВАРЫ
         var wh1 = warehouseManager.getWarehouse("WH-001");

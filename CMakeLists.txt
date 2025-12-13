@@ -9,7 +9,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Core Quick )
+find_package(Qt6 REQUIRED COMPONENTS Core Quick PrintSupport LabsPlatform)
 
 # Список исходных файлов
 set(SOURCES
@@ -66,6 +66,7 @@ target_compile_definitions(WarehouseManagementApp PRIVATE
 target_link_libraries(WarehouseManagementApp PRIVATE
     Qt6::Core
     Qt6::Quick
+    Qt6::PrintSupport
 )
 
 # Включение заголовков

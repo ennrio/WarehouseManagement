@@ -715,6 +715,14 @@ WarehouseManagementApp_autogen/timestamp: /home/egor/all/study/5seml/OOP/Warehou
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfig.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfigVersion.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformDependencies.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformTargets.cmake \
+  /usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformVersionlessAliasTargets.cmake \
   /usr/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
   /usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -748,6 +756,19 @@ WarehouseManagementApp_autogen/timestamp: /home/egor/all/study/5seml/OOP/Warehou
   /usr/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
   /usr/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginConfig.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets.cmake \
   /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginConfig.cmake \
   /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginTargets-relwithdebinfo.cmake \
@@ -1234,6 +1255,14 @@ WarehouseManagementApp_autogen/timestamp: /home/egor/all/study/5seml/OOP/Warehou
   /usr/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake \
   /usr/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2AdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersion.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Dependencies.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake \
+  /usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2VersionlessAliasTargets.cmake \
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake \
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake \
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake \
@@ -1242,83 +1271,44 @@ WarehouseManagementApp_autogen/timestamp: /home/egor/all/study/5seml/OOP/Warehou
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
   /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
   /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake \
   /usr/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /usr/share/cmake/Modules/FindCups.cmake \
   /usr/share/cmake/Modules/FindOpenGL.cmake \
   /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake/Modules/FindPackageMessage.cmake \
@@ -1327,19 +1317,15 @@ WarehouseManagementApp_autogen/timestamp: /home/egor/all/study/5seml/OOP/Warehou
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/share/cmake/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Linker/GNU.cmake \
   /usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/share/cmake/Modules/Platform/Linker/GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
@@ -7405,6 +7391,20 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehouse.cpp.o: /home/egor/all/study/
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h
 
 CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/warehousemanager.cpp \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/basicproduct.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/employee.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/expiredreport.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/expiredreportfactory.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/iobserver.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/product.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/report.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/reportfactory.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/stockreport.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/stockreportfactory.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/supplier.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/supply.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/warehouse.h \
+  /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/warehousemanager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -7491,6 +7491,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/c++/15.2.1/algorithm \
@@ -7506,11 +7507,14 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/atomic_base.h \
   /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/15.2.1/bits/basic_ios.h \
+  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
   /usr/include/c++/15.2.1/bits/basic_string.h \
   /usr/include/c++/15.2.1/bits/basic_string.tcc \
   /usr/include/c++/15.2.1/bits/char_traits.h \
   /usr/include/c++/15.2.1/bits/charconv.h \
   /usr/include/c++/15.2.1/bits/chrono.h \
+  /usr/include/c++/15.2.1/bits/codecvt.h \
   /usr/include/c++/15.2.1/bits/concept_check.h \
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
@@ -7520,6 +7524,10 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
+  /usr/include/c++/15.2.1/bits/fs_dir.h \
+  /usr/include/c++/15.2.1/bits/fs_fwd.h \
+  /usr/include/c++/15.2.1/bits/fs_ops.h \
+  /usr/include/c++/15.2.1/bits/fs_path.h \
   /usr/include/c++/15.2.1/bits/functexcept.h \
   /usr/include/c++/15.2.1/bits/functional_hash.h \
   /usr/include/c++/15.2.1/bits/hash_bytes.h \
@@ -7527,9 +7535,15 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/hashtable_policy.h \
   /usr/include/c++/15.2.1/bits/invoke.h \
   /usr/include/c++/15.2.1/bits/ios_base.h \
+  /usr/include/c++/15.2.1/bits/istream.tcc \
   /usr/include/c++/15.2.1/bits/list.tcc \
   /usr/include/c++/15.2.1/bits/locale_classes.h \
   /usr/include/c++/15.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/15.2.1/bits/locale_conv.h \
+  /usr/include/c++/15.2.1/bits/locale_facets.h \
+  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/15.2.1/bits/localefwd.h \
   /usr/include/c++/15.2.1/bits/memory_resource.h \
   /usr/include/c++/15.2.1/bits/memoryfwd.h \
@@ -7538,11 +7552,14 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
   /usr/include/c++/15.2.1/bits/node_handle.h \
+  /usr/include/c++/15.2.1/bits/ostream.h \
+  /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
   /usr/include/c++/15.2.1/bits/parse_numbers.h \
   /usr/include/c++/15.2.1/bits/postypes.h \
   /usr/include/c++/15.2.1/bits/predefined_ops.h \
   /usr/include/c++/15.2.1/bits/ptr_traits.h \
+  /usr/include/c++/15.2.1/bits/quoted_string.h \
   /usr/include/c++/15.2.1/bits/range_access.h \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
@@ -7550,6 +7567,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
   /usr/include/c++/15.2.1/bits/specfun.h \
+  /usr/include/c++/15.2.1/bits/sstream.tcc \
   /usr/include/c++/15.2.1/bits/std_abs.h \
   /usr/include/c++/15.2.1/bits/std_function.h \
   /usr/include/c++/15.2.1/bits/stl_algo.h \
@@ -7588,12 +7606,14 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/bits/utility.h \
   /usr/include/c++/15.2.1/bits/vector.tcc \
   /usr/include/c++/15.2.1/bits/version.h \
+  /usr/include/c++/15.2.1/cassert \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
   /usr/include/c++/15.2.1/chrono \
   /usr/include/c++/15.2.1/climits \
   /usr/include/c++/15.2.1/clocale \
   /usr/include/c++/15.2.1/cmath \
+  /usr/include/c++/15.2.1/codecvt \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
   /usr/include/c++/15.2.1/cstddef \
@@ -7603,6 +7623,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/cstring \
   /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
+  /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
   /usr/include/c++/15.2.1/exception \
@@ -7613,17 +7634,23 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
   /usr/include/c++/15.2.1/ext/string_conversions.h \
   /usr/include/c++/15.2.1/ext/type_traits.h \
+  /usr/include/c++/15.2.1/filesystem \
   /usr/include/c++/15.2.1/functional \
   /usr/include/c++/15.2.1/initializer_list \
+  /usr/include/c++/15.2.1/iomanip \
+  /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
+  /usr/include/c++/15.2.1/istream \
   /usr/include/c++/15.2.1/iterator \
   /usr/include/c++/15.2.1/limits \
   /usr/include/c++/15.2.1/list \
+  /usr/include/c++/15.2.1/locale \
   /usr/include/c++/15.2.1/map \
   /usr/include/c++/15.2.1/memory \
   /usr/include/c++/15.2.1/new \
   /usr/include/c++/15.2.1/numeric \
   /usr/include/c++/15.2.1/optional \
+  /usr/include/c++/15.2.1/ostream \
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
@@ -7631,6 +7658,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/set \
+  /usr/include/c++/15.2.1/sstream \
   /usr/include/c++/15.2.1/stdexcept \
   /usr/include/c++/15.2.1/stdlib.h \
   /usr/include/c++/15.2.1/streambuf \
@@ -7663,10 +7691,14 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -7674,6 +7706,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -7684,12 +7717,23 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
+  /usr/include/qt6/QtCore/QDate \
   /usr/include/qt6/QtCore/QDebug \
+  /usr/include/qt6/QtCore/QDir \
+  /usr/include/qt6/QtCore/QFileInfo \
+  /usr/include/qt6/QtCore/QList \
+  /usr/include/qt6/QtCore/QMap \
+  /usr/include/qt6/QtCore/QObject \
+  /usr/include/qt6/QtCore/QString \
+  /usr/include/qt6/QtCore/QStringList \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20functional.h \
+  /usr/include/qt6/QtCore/q20iterator.h \
   /usr/include/qt6/QtCore/q20memory.h \
   /usr/include/qt6/QtCore/q20type_traits.h \
+  /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23type_traits.h \
+  /usr/include/qt6/QtCore/q23utility.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qalloc.h \
   /usr/include/qt6/QtCore/qanystringview.h \
@@ -7700,11 +7744,14 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
+  /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
   /usr/include/qt6/QtCore/qbytearraylist.h \
   /usr/include/qt6/QtCore/qbytearrayview.h \
+  /usr/include/qt6/QtCore/qcalendar.h \
   /usr/include/qt6/QtCore/qchar.h \
+  /usr/include/qt6/QtCore/qcheckedint_impl.h \
   /usr/include/qt6/QtCore/qcompare.h \
   /usr/include/qt6/QtCore/qcompare_impl.h \
   /usr/include/qt6/QtCore/qcomparehelpers.h \
@@ -7717,8 +7764,15 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qcontiguouscache.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
+  /usr/include/qt6/QtCore/qdatetime.h \
   /usr/include/qt6/QtCore/qdebug.h \
+  /usr/include/qt6/QtCore/qdir.h \
+  /usr/include/qt6/QtCore/qdirlisting.h \
+  /usr/include/qt6/QtCore/qendian.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
+  /usr/include/qt6/QtCore/qfile.h \
+  /usr/include/qt6/QtCore/qfiledevice.h \
+  /usr/include/qt6/QtCore/qfileinfo.h \
   /usr/include/qt6/QtCore/qflags.h \
   /usr/include/qt6/QtCore/qfloat16.h \
   /usr/include/qt6/QtCore/qforeach.h \
@@ -7729,25 +7783,33 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qglobalstatic.h \
   /usr/include/qt6/QtCore/qhash.h \
   /usr/include/qt6/QtCore/qhashfunctions.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qiterable.h \
   /usr/include/qt6/QtCore/qiterator.h \
   /usr/include/qt6/QtCore/qlatin1stringview.h \
+  /usr/include/qt6/QtCore/qline.h \
   /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/qlocale.h \
   /usr/include/qt6/QtCore/qlogging.h \
   /usr/include/qt6/QtCore/qmalloc.h \
   /usr/include/qt6/QtCore/qmap.h \
+  /usr/include/qt6/QtCore/qmargins.h \
   /usr/include/qt6/QtCore/qmath.h \
   /usr/include/qt6/QtCore/qmetacontainer.h \
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qminmax.h \
   /usr/include/qt6/QtCore/qnamespace.h \
   /usr/include/qt6/QtCore/qnumeric.h \
+  /usr/include/qt6/QtCore/qobject.h \
+  /usr/include/qt6/QtCore/qobject_impl.h \
   /usr/include/qt6/QtCore/qobjectdefs.h \
   /usr/include/qt6/QtCore/qobjectdefs_impl.h \
   /usr/include/qt6/QtCore/qoverload.h \
   /usr/include/qt6/QtCore/qpair.h \
+  /usr/include/qt6/QtCore/qpoint.h \
   /usr/include/qt6/QtCore/qprocessordetection.h \
+  /usr/include/qt6/QtCore/qrect.h \
   /usr/include/qt6/QtCore/qrefcount.h \
   /usr/include/qt6/QtCore/qscopedpointer.h \
   /usr/include/qt6/QtCore/qscopeguard.h \
@@ -7756,6 +7818,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qshareddata_impl.h \
   /usr/include/qt6/QtCore/qsharedpointer.h \
   /usr/include/qt6/QtCore/qsharedpointer_impl.h \
+  /usr/include/qt6/QtCore/qsize.h \
+  /usr/include/qt6/QtCore/qspan.h \
   /usr/include/qt6/QtCore/qstdlibdetection.h \
   /usr/include/qt6/QtCore/qstring.h \
   /usr/include/qt6/QtCore/qstringalgorithms.h \
@@ -7782,6 +7846,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qtenvironmentvariables.h \
   /usr/include/qt6/QtCore/qtextstream.h \
   /usr/include/qt6/QtCore/qtformat_impl.h \
+  /usr/include/qt6/QtCore/qtimezone.h \
   /usr/include/qt6/QtCore/qtmetamacros.h \
   /usr/include/qt6/QtCore/qtnoop.h \
   /usr/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -7792,11 +7857,51 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/qt6/QtCore/qtversionchecks.h \
   /usr/include/qt6/QtCore/qtypeinfo.h \
   /usr/include/qt6/QtCore/qtypes.h \
+  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtCore/qutf8stringview.h \
+  /usr/include/qt6/QtCore/qvariant.h \
   /usr/include/qt6/QtCore/qvarlengtharray.h \
   /usr/include/qt6/QtCore/qversiontagging.h \
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
+  /usr/include/qt6/QtGui/QPageLayout \
+  /usr/include/qt6/QtGui/QPainter \
+  /usr/include/qt6/QtGui/QTextDocument \
+  /usr/include/qt6/QtGui/qbrush.h \
+  /usr/include/qt6/QtGui/qcolor.h \
+  /usr/include/qt6/QtGui/qfont.h \
+  /usr/include/qt6/QtGui/qfontinfo.h \
+  /usr/include/qt6/QtGui/qfontmetrics.h \
+  /usr/include/qt6/QtGui/qfontvariableaxis.h \
+  /usr/include/qt6/QtGui/qimage.h \
+  /usr/include/qt6/QtGui/qpagedpaintdevice.h \
+  /usr/include/qt6/QtGui/qpagelayout.h \
+  /usr/include/qt6/QtGui/qpageranges.h \
+  /usr/include/qt6/QtGui/qpagesize.h \
+  /usr/include/qt6/QtGui/qpaintdevice.h \
+  /usr/include/qt6/QtGui/qpainter.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpixelformat.h \
+  /usr/include/qt6/QtGui/qpixmap.h \
+  /usr/include/qt6/QtGui/qpolygon.h \
+  /usr/include/qt6/QtGui/qregion.h \
+  /usr/include/qt6/QtGui/qrgb.h \
+  /usr/include/qt6/QtGui/qrgba64.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
+  /usr/include/qt6/QtGui/qtgui-config.h \
+  /usr/include/qt6/QtGui/qtguiexports.h \
+  /usr/include/qt6/QtGui/qtguiglobal.h \
+  /usr/include/qt6/QtGui/qtransform.h \
+  /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtPrintSupport/QPrinter \
+  /usr/include/qt6/QtPrintSupport/qprinter.h \
+  /usr/include/qt6/QtPrintSupport/qtprintsupport-config.h \
+  /usr/include/qt6/QtPrintSupport/qtprintsupportexports.h \
+  /usr/include/qt6/QtPrintSupport/qtprintsupportglobal.h \
+  /usr/include/qt6/QtWidgets/qtwidgets-config.h \
+  /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
+  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -7810,6 +7915,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o: /home/egor/all
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
@@ -8379,11 +8485,13 @@ WarehouseManagementApp: /usr/lib/Scrt1.o \
   /usr/lib/libQt6Gui.so.6.10.1 \
   /usr/lib/libQt6Network.so.6.10.1 \
   /usr/lib/libQt6OpenGL.so.6.10.1 \
+  /usr/lib/libQt6PrintSupport.so.6.10.1 \
   /usr/lib/libQt6Qml.so.6.10.1 \
   /usr/lib/libQt6QmlMeta.so.6 \
   /usr/lib/libQt6QmlModels.so.6 \
   /usr/lib/libQt6QmlWorkerScript.so.6 \
   /usr/lib/libQt6Quick.so.6.10.1 \
+  /usr/lib/libQt6Widgets.so.6.10.1 \
   /usr/lib/libX11.so.6 \
   /usr/lib/libXau.so.6 \
   /usr/lib/libXdmcp.so.6 \
@@ -8466,8 +8574,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/warehousemanager.cpp.o:
 
 CMakeFiles/WarehouseManagementApp.dir/cpp/warehouse.cpp.o:
 
-CMakeFiles/WarehouseManagementApp.dir/cpp/supply.cpp.o:
-
 CMakeFiles/WarehouseManagementApp.dir/cpp/supplier.cpp.o:
 
 CMakeFiles/WarehouseManagementApp.dir/cpp/stockreportfactory.cpp.o:
@@ -8501,8 +8607,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 /usr/lib/libmount.so.1:
 
 /usr/lib/libmd4c.so.0:
-
-/usr/lib/libkrb5.so.3:
 
 /usr/lib/libkeyutils.so.1:
 
@@ -8588,10 +8692,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 
 /usr/include/qt6/QtNetwork/qtnetworkglobal.h:
 
-/usr/include/qt6/QtGui/qtguiexports.h:
-
-/usr/include/qt6/QtGui/qtgui-config.h:
-
 /usr/include/qt6/QtGui/qinputmethod.h:
 
 /usr/include/qt6/QtGui/qguiapplication.h:
@@ -8600,21 +8700,11 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 
 /usr/include/qt6/QtCore/qversionnumber.h:
 
-/usr/include/qt6/QtCore/qtimezone.h:
-
-/usr/include/qt6/QtCore/qpoint.h:
-
 /usr/include/qt6/QtCore/qnativeinterface.h:
 
 /usr/include/qt6/QtCore/qmetaobject.h:
 
-/usr/include/qt6/QtCore/qmargins.h:
-
-/usr/include/qt6/QtCore/qfileinfo.h:
-
 /usr/include/qt6/QtCore/qeventloop.h:
-
-/usr/include/qt6/QtCore/qdirlisting.h:
 
 /usr/include/qt6/QtCore/qdeadlinetimer.h:
 
@@ -8625,6 +8715,68 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 /usr/include/qt6/QtCore/qbasictimer.h:
 
 /usr/include/c++/15.2.1/iostream:
+
+/usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
+
+/usr/include/qt6/QtWidgets/qtwidgets-config.h:
+
+/usr/include/qt6/QtPrintSupport/qtprintsupportglobal.h:
+
+CMakeFiles/WarehouseManagementApp.dir/cpp/supply.cpp.o:
+
+/usr/include/qt6/QtPrintSupport/qtprintsupportexports.h:
+
+/usr/include/qt6/QtPrintSupport/qtprintsupport-config.h:
+
+/usr/include/qt6/QtPrintSupport/QPrinter:
+
+/usr/include/qt6/QtGui/qtransform.h:
+
+/usr/include/qt6/QtGui/qtguiexports.h:
+
+/usr/include/qt6/QtGui/qtgui-config.h:
+
+/usr/include/qt6/QtGui/qtextoption.h:
+
+/usr/include/qt6/QtGui/qrgba64.h:
+
+/usr/include/qt6/QtGui/qrgb.h:
+
+/usr/include/qt6/QtGui/qpixmap.h:
+
+/usr/include/qt6/QtGui/qpixelformat.h:
+
+/usr/include/qt6/QtGui/qpainter.h:
+
+/usr/include/qt6/QtGui/qpaintdevice.h:
+
+/usr/lib/libkrb5.so.3:
+
+/usr/include/qt6/QtGui/qpagesize.h:
+
+/usr/include/qt6/QtGui/qpagedpaintdevice.h:
+
+/usr/include/qt6/QtGui/qimage.h:
+
+/usr/include/qt6/QtGui/qfontmetrics.h:
+
+/usr/include/qt6/QtGui/qfontinfo.h:
+
+/usr/include/qt6/QtGui/QPainter:
+
+/usr/include/qt6/QtGui/QPageLayout:
+
+/usr/include/qt6/QtCore/qtimezone.h:
+
+/usr/include/qt6/QtCore/qpoint.h:
+
+/usr/include/qt6/QtCore/qmargins.h:
+
+/usr/include/qt6/QtCore/qfileinfo.h:
+
+/usr/include/qt6/QtCore/qendian.h:
+
+/usr/include/qt6/QtCore/qdirlisting.h:
 
 /usr/include/wctype.h:
 
@@ -8639,6 +8791,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/15.2.1/sstream:
 
@@ -8672,6 +8826,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 
 /usr/include/c++/15.2.1/bits/istream.tcc:
 
+/usr/include/qt6/QtGui/qtextdocument.h:
+
 /usr/include/c++/15.2.1/bits/fs_path.h:
 
 /usr/include/c++/15.2.1/bits/fs_ops.h:
@@ -8685,6 +8841,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/employee.cpp.o:
 /usr/include/qt6/QtCore/QDateTime:
 
 /usr/include/qt6/QtCore/QDebug:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
@@ -8752,15 +8910,9 @@ WarehouseManagementApp_autogen/EWIEGA46WW/qrc_resources.cpp:
 
 /usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
-
-/usr/share/cmake/Modules/Internal/FeatureTesting.cmake:
-
 /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
 /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
-
-/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 /usr/share/cmake/Modules/FindVulkan.cmake:
 
@@ -8772,85 +8924,45 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_employee.cpp:
 
 /usr/share/cmake/Modules/FindOpenGL.cmake:
 
-/usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+/usr/share/cmake/Modules/FindCups.cmake:
 
 /usr/share/cmake/Modules/Compiler/GNU.cmake:
-
-/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:
-
-/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
-/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
 /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
-
-/usr/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /usr/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
 /usr/share/cmake/Modules/CMakeGenericSystem.cmake:
 
-/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
-
 /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
+/usr/include/qt6/QtCore/qline.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake:
 
@@ -8863,6 +8975,18 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_employee.cpp:
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake:
 
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2VersionlessAliasTargets.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Dependencies.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Config.cmake:
+
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2AdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:
 
@@ -8950,11 +9074,7 @@ WarehouseManagementApp_autogen/mocs_compilation.cpp:
 
 /usr/lib/cmake/Qt6Qml/Qt6QmlTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake:
-
 /usr/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake:
-
-/usr/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake:
 
@@ -9026,8 +9146,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginConfig.cmake:
 
-/usr/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginAdditionalTargetInfo.cmake:
-
 /usr/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake:
@@ -9042,9 +9160,43 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15.2.1/bits/locale_conv.h:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake:
+
+/usr/lib/libssh2.so.1:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-relwithdebinfo.cmake:
+
+WarehouseManagementApp_autogen/SVODSI3R2M/moc_warehouse.cpp:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfig.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
@@ -9094,6 +9246,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
+/usr/include/qt6/QtGui/qregion.h:
+
 /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebenginequickdelegatespluginTargets-relwithdebinfo.cmake:
@@ -9103,6 +9257,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake:
 
 /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/report.h:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
 /usr/include/c++/15.2.1/debug/debug.h:
 
@@ -9118,6 +9274,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
 
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfigVersionImpl.cmake:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
@@ -9130,9 +9288,9 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
 /usr/bin/cmake:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginConfig.cmake:
 
@@ -9149,8 +9307,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/include/qt6/QtCore/qlocale.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginDependencies.cmake:
-
-/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
 /usr/include/sys/types.h:
 
@@ -9170,11 +9326,13 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/include/stdlib.h:
 
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfig.cmake:
+
 /usr/include/qt6/QtCore/qyieldcpu.h:
 
 /usr/include/qt6/QtCore/qvarlengtharray.h:
 
-/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+/usr/include/qt6/QtGui/qpolygon.h:
 
 /usr/include/c++/15.2.1/bits/ios_base.h:
 
@@ -9183,6 +9341,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/include/qt6/QtCore/qtypes.h:
 
 /usr/include/qt6/QtCore/qtversion.h:
+
+/usr/include/qt6/QtCore/qrect.h:
 
 /usr/include/qt6/QtCore/qttypetraits.h:
 
@@ -9199,8 +9359,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/include/qt6/QtCore/qtypeinfo.h:
 
 /usr/include/qt6/QtCore/qtpreprocessorsupport.h:
-
-/usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/include/qt6/QtCore/qtnoop.h:
 
@@ -9294,8 +9452,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/include/qt6/QtCore/qurl.h:
 
-/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
-
 /usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
 /usr/include/qt6/QtCore/qdatastream.h:
@@ -9313,8 +9469,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/lib/cmake/Qt6Quick/Qt6QuickVersionlessAliasTargets.cmake:
 
 /usr/include/c++/15.2.1/bits/exception.h:
-
-/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake:
 
@@ -9361,6 +9515,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 /usr/include/qt6/QtCore/qrefcount.h:
 
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
+
+/usr/include/qt6/QtGui/qfont.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-relwithdebinfo.cmake:
 
@@ -9458,8 +9614,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_expiredreportfactory.cpp:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qnumeric.h:
 
 CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/qrc_resources.cpp.o:
@@ -9510,8 +9664,6 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 
 /usr/include/qt6/QtCore/q17memory.h:
 
-/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
-
 /usr/include/features-time64.h:
 
 /usr/include/c++/15.2.1/bits/ptr_traits.h:
@@ -9527,6 +9679,8 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 /usr/include/c++/15.2.1/ext/alloc_traits.h:
 
 /usr/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
+
+/usr/include/qt6/QtGui/qpen.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -9544,11 +9698,11 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 
 /usr/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateVersionlessAliasTargets.cmake:
 
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2ConfigVersion.cmake:
+
 /usr/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake:
 
 /usr/include/qt6/QtCore/qbytearray.h:
-
-/usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
 
 /usr/include/errno.h:
 
@@ -9596,6 +9750,10 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 
 /usr/include/c++/15.2.1/ext/numeric_traits.h:
 
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
+
 /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake:
 
 /usr/include/bits/stdlib-float.h:
@@ -9636,6 +9794,8 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 
 /usr/include/bits/sched.h:
 
+/usr/lib/cmake/Qt6QuickTemplates2/Qt6QuickTemplates2Targets.cmake:
+
 /usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
 /usr/include/qt6/QtCore/qconfig.h:
@@ -9649,8 +9809,6 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/EWIEGA46WW/
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfig.cmake:
-
-/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
@@ -9671,6 +9829,8 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/mocs_compil
 /usr/include/c++/15.2.1/bits/string_view.tcc:
 
 /usr/lib/libGLdispatch.so.0:
+
+/usr/include/qt6/QtWidgets/qtwidgetsexports.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -9724,6 +9884,8 @@ CMakeFiles/WarehouseManagementApp.dir/WarehouseManagementApp_autogen/mocs_compil
 
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3styleimplpluginTargets.cmake:
 
 /usr/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateTargets-relwithdebinfo.cmake:
@@ -9774,8 +9936,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_perishableproduct.cpp:
 
 WarehouseManagementApp_autogen/moc_predefs.h:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets-relwithdebinfo.cmake:
-
 /usr/include/bits/byteswap.h:
 
 /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
@@ -9784,15 +9944,11 @@ WarehouseManagementApp_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationpluginConfig.cmake:
 
-/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/include/c++/15.2.1/unordered_set:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickshapesdesignhelperspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/libblkid.so.1:
-
-/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
 
 /usr/include/qt6/QtCore/qstdlibdetection.h:
 
@@ -9807,6 +9963,10 @@ WarehouseManagementApp_autogen/moc_predefs.h:
 /usr/lib/libnghttp3.so.9:
 
 /usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets.cmake:
+
+/usr/include/qt6/QtCore/qstringfwd.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginAdditionalTargetInfo.cmake:
 
@@ -9844,13 +10004,13 @@ WarehouseManagementApp_autogen/moc_predefs.h:
 
 /home/egor/all/study/5seml/OOP/WarehouseManagement/cpp/stockreport.cpp:
 
+/usr/include/qt6/QtGui/qcolor.h:
+
 /usr/include/qt6/QtCore/qlogging.h:
 
 /usr/include/bits/stdint-uintn.h:
 
 WarehouseManagementApp_autogen/SVODSI3R2M/moc_warehousemanager.cpp:
-
-/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
 
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
 
@@ -9889,8 +10049,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_warehousemanager.cpp:
 /usr/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:
 
 /usr/include/c++/15.2.1/string:
 
@@ -9998,11 +10156,11 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/promotionalproduct.cpp.o:
 
 /usr/include/c++/15.2.1/atomic:
 
-/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
-
 /usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
 /usr/include/bits/floatn.h:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
 /usr/include/qt6/QtCore/qcompare_impl.h:
 
@@ -10042,10 +10200,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/promotionalproduct.cpp.o:
 
 /usr/include/c++/15.2.1/bits/vector.tcc:
 
-/usr/include/qt6/QtCore/qstringfwd.h:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets.cmake:
-
 /usr/include/qt6/QtQml/qjsvalue.h:
 
 /usr/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersionImpl.cmake:
@@ -10076,6 +10230,8 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /usr/include/c++/15.2.1/streambuf:
 
+/usr/include/qt6/QtGui/qbrush.h:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginAdditionalTargetInfo.cmake:
 
 /usr/include/bits/local_lim.h:
@@ -10087,6 +10243,8 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 /usr/include/qt6/QtCore/QString:
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
 
 /usr/include/qt6/QtCore/qvariant.h:
 
@@ -10107,6 +10265,8 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake:
 
 /usr/include/qt6/QtCore/qstringconverter_base.h:
+
+/usr/include/qt6/QtGui/QTextDocument:
 
 /usr/include/c++/15.2.1/bits/atomic_base.h:
 
@@ -10142,13 +10302,11 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/qt6/QtCore/qspan.h:
-
-/usr/include/c++/15.2.1/bits/enable_special_members.h:
-
 CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginTargets.cmake:
+
+/usr/include/qt6/QtGui/qpagelayout.h:
 
 /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake:
 
@@ -10170,8 +10328,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/c++/15.2.1/bits/stl_function.h:
 
-/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
-
 /usr/include/c++/15.2.1/bits/chrono.h:
 
 /usr/include/sys/select.h:
@@ -10179,8 +10335,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 /usr/include/c++/15.2.1/bits/allocated_ptr.h:
 
 /usr/include/c++/15.2.1/bits/stream_iterator.h:
-
-/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
@@ -10224,6 +10378,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/c++/15.2.1/bits/stringfwd.h:
 
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake:
 
 /usr/include/c++/15.2.1/stdexcept:
@@ -10266,9 +10422,13 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/c++/15.2.1/bits/stl_relops.h:
 
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformVersionlessAliasTargets.cmake:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/QFileInfo:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets.cmake:
 
@@ -10338,15 +10498,9 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/c++/15.2.1/bits/memory_resource.h:
 
-/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
-
 /usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
 
@@ -10368,13 +10522,15 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/bits/types.h:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingConfig.cmake:
+/usr/lib/libQt6Widgets.so.6.10.1:
 
 /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
 
 /usr/include/c++/15.2.1/bits/move.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMngPluginTargets.cmake:
+
+/usr/include/qt6/QtGui/qfontvariableaxis.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsSynchronizerpluginTargets.cmake:
 
@@ -10414,15 +10570,11 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/qt6/QtQml/qqmlapplicationengine.h:
 
-/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qtaggedpointer.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhunspellpluginTargets.cmake:
 
 /usr/include/c++/15.2.1/bits/stl_construct.h:
-
-/usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets-relwithdebinfo.cmake:
 
@@ -10500,9 +10652,9 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/lib/libxcb.so.1:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginTargets-relwithdebinfo.cmake:
+/usr/include/qt6/QtGui/qpageranges.h:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets-relwithdebinfo.cmake:
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets-relwithdebinfo.cmake:
 
@@ -10612,6 +10764,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/include/c++/15.2.1/ctime:
 
+/usr/lib/libQt6PrintSupport.so.6.10.1:
+
 /usr/include/c++/15.2.1/ext/aligned_buffer.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake:
@@ -10625,6 +10779,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake:
 
 /usr/include/qt6/QtCore/qset.h:
+
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformTargets.cmake:
 
 /usr/include/c++/15.2.1/bits/stl_heap.h:
 
@@ -10640,17 +10796,11 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/basicproduct.cpp.o:
 
 /usr/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets-relwithdebinfo.cmake:
 
 /usr/include/c++/15.2.1/functional:
 
-/usr/include/c++/15.2.1/iosfwd:
-
 /usr/include/c++/15.2.1/optional:
-
-/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
 
 /usr/include/c++/15.2.1/typeinfo:
 
@@ -10697,8 +10847,6 @@ CMakeFiles/WarehouseManagementApp.dir/main.cpp.o:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6LabsPlatformpluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginConfig.cmake:
-
-/usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
 
@@ -10756,6 +10904,10 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake:
 
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformDependencies.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake:
@@ -10802,6 +10954,10 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellpluginTargets-relwithdebinfo.cmake:
+
 /usr/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QJp2PluginConfig.cmake:
@@ -10827,10 +10983,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellpluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
@@ -10868,6 +11020,10 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
+/usr/lib/cmake/Qt6Qml/Qt6QmlPublicCMakeHelpers.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginAdditionalTargetInfo.cmake:
@@ -10884,8 +11040,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake:
@@ -10895,6 +11049,12 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
 
 /usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qspan.h:
+
+/usr/include/c++/15.2.1/bits/enable_special_members.h:
+
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformConfigVersion.cmake:
 
 /usr/include/qt6/QtCore/qobject_impl.h:
 
@@ -10916,8 +11076,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake:
 
-/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
 /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
@@ -10934,13 +11092,7 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
 /usr/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake:
-
-/usr/include/c++/15.2.1/bits/locale_conv.h:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
 
@@ -10984,6 +11136,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/include/ctype.h:
 
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake:
+
 /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginConfig.cmake:
@@ -11023,6 +11177,18 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6LabsPlatform/Qt6LabsPlatformTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtCore/qtmocconstants.h:
+
+WarehouseManagementApp_autogen/SVODSI3R2M/moc_report.cpp:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
 
@@ -11084,9 +11250,35 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginAdditionalTargetInfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
 /usr/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake:
+
+/usr/include/c++/15.2.1/iosfwd:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake:
+
+/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake:
+
+/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake:
+
+/usr/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginAdditionalTargetInfo.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets.cmake:
 
 /usr/include/qt6/QtQml/QQmlApplicationEngine:
 
@@ -11126,8 +11318,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets.cmake:
 
-/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets.cmake:
@@ -11164,6 +11354,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/expiredreportfactory.cpp.o:
 
 CMakeFiles/WarehouseManagementApp.dir/cpp/perishableproduct.cpp.o:
 
+/usr/include/qt6/QtPrintSupport/qprinter.h:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationpluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimepluginTargets-relwithdebinfo.cmake:
@@ -11171,6 +11363,8 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/perishableproduct.cpp.o:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimepluginTargets.cmake:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellAdditionalTargetInfo.cmake:
 
@@ -11219,8 +11413,6 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/perishableproduct.cpp.o:
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake:
-
-/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake:
 
@@ -11276,17 +11468,9 @@ CMakeFiles/WarehouseManagementApp.dir/cpp/perishableproduct.cpp.o:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fluentwinui3stylepluginAdditionalTargetInfo.cmake:
 
-/usr/include/qt6/QtCore/qtmocconstants.h:
-
-WarehouseManagementApp_autogen/SVODSI3R2M/moc_report.cpp:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginAdditionalTargetInfo.cmake:
 
@@ -11343,8 +11527,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_report.cpp:
 /usr/include/bits/endianness.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake:
 
@@ -11464,8 +11646,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_report.cpp:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets-relwithdebinfo.cmake:
 
-/usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake:
@@ -11491,8 +11671,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_report.cpp:
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-relwithdebinfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets-relwithdebinfo.cmake:
 
@@ -11540,8 +11718,6 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_reportfactory.cpp:
 
 /usr/lib/crti.o:
 
-/usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake:
-
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginTargets.cmake:
@@ -11567,6 +11743,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_reportfactory.cpp:
 /usr/include/c++/15.2.1/bits/hash_bytes.h:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets.cmake:
+
+/usr/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginAdditionalTargetInfo.cmake:
 
@@ -11606,26 +11784,8 @@ WarehouseManagementApp_autogen/SVODSI3R2M/moc_reportfactory.cpp:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginConfig.cmake:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
+
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfig.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaConfig.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets-relwithdebinfo.cmake:
-
-WarehouseManagementApp_autogen/SVODSI3R2M/moc_warehouse.cpp:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake:
-
-/usr/lib/libssh2.so.1:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginAdditionalTargetInfo.cmake:
-
-/usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginAdditionalTargetInfo.cmake:

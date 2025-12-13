@@ -11,7 +11,6 @@
 #include "expiredreport.h"
 #include "stockreportfactory.h"
 #include "expiredreportfactory.h"
-//#include <Q_INVOKABLE QString saveReportAsPdf(const QString& content, const QString& filePath);
 
 // Паттерн Singleton
 class WarehouseManager : public QObject {
@@ -63,6 +62,7 @@ public:
 
     Q_INVOKABLE StockReport* generateStockReport(Warehouse* warehouse, const QString& reportId);
     Q_INVOKABLE ExpiredReport* generateExpiredReport(Warehouse* warehouse, const QString& reportId);
+    Q_INVOKABLE QString saveReportAsPdf(const QString& content, const QString& filePath);
 
 
     // Служебные методы

@@ -86,6 +86,9 @@ template <> constexpr inline auto WarehouseManager::qt_create_metaobjectdata<qt_
         "reportId",
         "generateExpiredReport",
         "ExpiredReport*",
+        "saveReportAsPdf",
+        "content",
+        "filePath",
         "warehouses",
         "suppliers",
         "employees",
@@ -157,16 +160,20 @@ template <> constexpr inline auto WarehouseManager::qt_create_metaobjectdata<qt_
         QtMocHelpers::MethodData<ExpiredReport *(Warehouse *, const QString &)>(45, 2, QMC::AccessPublic, 0x80000000 | 46, {{
             { 0x80000000 | 13, 43 }, { QMetaType::QString, 44 },
         }}),
+        // Method 'saveReportAsPdf'
+        QtMocHelpers::MethodData<QString(const QString &, const QString &)>(47, 2, QMC::AccessPublic, QMetaType::QString, {{
+            { QMetaType::QString, 48 }, { QMetaType::QString, 49 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'warehouses'
-        QtMocHelpers::PropertyData<QList<QObject*>>(47, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 0),
+        QtMocHelpers::PropertyData<QList<QObject*>>(50, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 0),
         // property 'suppliers'
-        QtMocHelpers::PropertyData<QList<QObject*>>(48, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 1),
+        QtMocHelpers::PropertyData<QList<QObject*>>(51, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 1),
         // property 'employees'
-        QtMocHelpers::PropertyData<QList<QObject*>>(49, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 2),
+        QtMocHelpers::PropertyData<QList<QObject*>>(52, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 2),
         // property 'supplies'
-        QtMocHelpers::PropertyData<QList<QObject*>>(50, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 3),
+        QtMocHelpers::PropertyData<QList<QObject*>>(53, 0x80000000 | 15, QMC::DefaultPropertyFlags | QMC::EnumOrFlag, 3),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -217,6 +224,8 @@ void WarehouseManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
             if (_a[0]) *reinterpret_cast<StockReport**>(_a[0]) = std::move(_r); }  break;
         case 19: { ExpiredReport* _r = _t->generateExpiredReport((*reinterpret_cast<std::add_pointer_t<Warehouse*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<ExpiredReport**>(_a[0]) = std::move(_r); }  break;
+        case 20: { QString _r = _t->saveReportAsPdf((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+            if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
@@ -299,14 +308,14 @@ int WarehouseManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 20)
+        if (_id < 21)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 20;
+        _id -= 21;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 20)
+        if (_id < 21)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 20;
+        _id -= 21;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

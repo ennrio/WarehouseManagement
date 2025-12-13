@@ -157,6 +157,7 @@
 #define __INT_FAST16_TYPE__ long int
 #define __MMX_WITH_SSE__ 1
 #define __LDBL_HAS_DENORM__ 1
+#define QT_WIDGETS_LIB 1
 #define __SEG_GS 1
 #define __BFLT16_EPSILON__ 7.81250000000000000000000000000000000e-3BF16
 #define __cplusplus 201703L
@@ -475,6 +476,7 @@
 #define __UINT_FAST16_MAX__ 0xffffffffffffffffUL
 #define __LDBL_NORM_MAX__ 1.18973149535723176502126385303097021e+4932L
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define QT_PRINTSUPPORT_LIB 1
 #define __SIZE_MAX__ 0xffffffffffffffffUL
 #define __UINT_FAST8_TYPE__ unsigned char
 #define _GNU_SOURCE 1

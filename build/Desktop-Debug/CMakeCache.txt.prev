@@ -194,6 +194,9 @@ CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=/home/egor/all/study/5seml/OOP/WarehouseMa
 CMAKE_PROJECT_NAME:STATIC=WarehouseManagement
 
 //Value Computed by CMake
+CMAKE_PROJECT_SPDX_LICENSE:STATIC=
+
+//Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
 
 //Value Computed by CMake
@@ -438,9 +441,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/egor/all/study/5seml/OOP/WarehouseManagement/
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=1
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=2
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.

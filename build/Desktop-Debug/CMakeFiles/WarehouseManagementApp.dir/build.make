@@ -70,6 +70,7 @@ include CMakeFiles/WarehouseManagementApp.dir/progress.make
 include CMakeFiles/WarehouseManagementApp.dir/flags.make
 
 WarehouseManagementApp_autogen/timestamp: /usr/lib/qt6/moc
+WarehouseManagementApp_autogen/timestamp: /usr/lib/qt6/uic
 WarehouseManagementApp_autogen/timestamp: CMakeFiles/WarehouseManagementApp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target WarehouseManagementApp"
 	/usr/bin/cmake -E cmake_autogen /home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/CMakeFiles/WarehouseManagementApp_autogen.dir/AutogenInfo.json Debug
@@ -388,12 +389,14 @@ WarehouseManagementApp: CMakeFiles/WarehouseManagementApp.dir/WarehouseManagemen
 WarehouseManagementApp: CMakeFiles/WarehouseManagementApp.dir/build.make
 WarehouseManagementApp: CMakeFiles/WarehouseManagementApp.dir/compiler_depend.ts
 WarehouseManagementApp: /usr/lib/libQt6Quick.so.6.10.1
+WarehouseManagementApp: /usr/lib/libQt6PrintSupport.so.6.10.1
 WarehouseManagementApp: /usr/lib/libQt6OpenGL.so.6.10.1
+WarehouseManagementApp: /usr/lib/libQt6Qml.so.6.10.1
+WarehouseManagementApp: /usr/lib/libQt6Network.so.6.10.1
+WarehouseManagementApp: /usr/lib/libQt6Widgets.so.6.10.1
 WarehouseManagementApp: /usr/lib/libQt6Gui.so.6.10.1
 WarehouseManagementApp: /usr/lib/libGLX.so
 WarehouseManagementApp: /usr/lib/libOpenGL.so
-WarehouseManagementApp: /usr/lib/libQt6Qml.so.6.10.1
-WarehouseManagementApp: /usr/lib/libQt6Network.so.6.10.1
 WarehouseManagementApp: /usr/lib/libQt6Core.so.6.10.1
 WarehouseManagementApp: CMakeFiles/WarehouseManagementApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable WarehouseManagementApp"
