@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+86b48e89dc982f871aaa6196f9082fd1 CMakeFiles/WarehouseManagementApp_autogen
+833a4ea8d55da8dca9dad15bb6ccb9e7 WarehouseManagementApp_autogen/EWIEGA46WW/qrc_resources.cpp
+652e52b347bae9bb2b3cbf34172a05ca WarehouseManagementApp_autogen/timestamp

@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/WarehouseList.qml</file>
+        <file>qml/ProductList.qml</file>
+        <file>qml/SupplyList.qml</file>
+        <file>qml/ReportView.qml</file>
+        <file>qml/NotificationPanel.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+# Папки сборки и зависимости
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll

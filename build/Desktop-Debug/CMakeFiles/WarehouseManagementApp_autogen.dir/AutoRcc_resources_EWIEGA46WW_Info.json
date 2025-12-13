@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/WarehouseManagementApp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement",
+	"CMAKE_SOURCE_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/WarehouseManagementApp_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/NotificationPanel.qml",
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/ReportView.qml",
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/SupplyList.qml",
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/WarehouseList.qml",
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/main.qml",
+		"/home/egor/all/study/5seml/OOP/WarehouseManagement/qml/ProductList.qml"
+	],
+	"LOCK_FILE" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/CMakeFiles/WarehouseManagementApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/build/Desktop-Debug/CMakeFiles/WarehouseManagementApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/egor/all/study/5seml/OOP/WarehouseManagement/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

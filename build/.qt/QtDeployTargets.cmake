@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_WarehouseManagementApp_FILE /home/egor/all/study/5seml/OOP/WarehouseManagement/build/WarehouseManagementApp)
+set(__QT_DEPLOY_TARGET_WarehouseManagementApp_TYPE EXECUTABLE)

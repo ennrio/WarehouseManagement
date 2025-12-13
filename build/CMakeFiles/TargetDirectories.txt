@@ -1,0 +1,5 @@
+/home/egor/all/study/5seml/OOP/WarehouseManagement/build/CMakeFiles/WarehouseManagementApp.dir
+/home/egor/all/study/5seml/OOP/WarehouseManagement/build/CMakeFiles/edit_cache.dir
+/home/egor/all/study/5seml/OOP/WarehouseManagement/build/CMakeFiles/rebuild_cache.dir
+/home/egor/all/study/5seml/OOP/WarehouseManagement/build/CMakeFiles/WarehouseManagementApp_autogen_timestamp_deps.dir
+/home/egor/all/study/5seml/OOP/WarehouseManagement/build/CMakeFiles/WarehouseManagementApp_autogen.dir
