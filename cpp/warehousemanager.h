@@ -21,6 +21,7 @@ class WarehouseManager : public QObject {
     Q_PROPERTY(QList<QObject*> supplies READ getSupplies NOTIFY suppliesChanged)
 
 
+
 private:
     static WarehouseManager* m_instance;
     QList<Warehouse*> m_warehouses;
@@ -63,6 +64,7 @@ public:
     Q_INVOKABLE StockReport* generateStockReport(Warehouse* warehouse, const QString& reportId);
     Q_INVOKABLE ExpiredReport* generateExpiredReport(Warehouse* warehouse, const QString& reportId);
     Q_INVOKABLE QString saveReportAsPdf(const QString& content, const QString& filePath);
+
 
 
     // Служебные методы

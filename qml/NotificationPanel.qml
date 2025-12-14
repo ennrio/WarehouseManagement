@@ -6,157 +6,215 @@ import QtQuick.Layouts
 ScrollView {
     id: root
     property var currentEmployee: null
-    property var warehouseFilter: null
+    // property var warehouseFilter: null  // не используется — можно удалить
 
-    ColumnLayout {
+    // Горизонтальное разделение: уведомления | добавление склада
+    RowLayout {
         anchors.fill: parent
-        spacing: 10
+        spacing: 20
 
-        Label {
-            text: currentEmployee ? "🔔 Уведомления: " + currentEmployee.name : "🔔 Выберите сотрудника"
-            font.pixelSize: 18
-            font.bold: true
-        }
+        // ==== ЛЕВАЯ ПАНЕЛЬ: Уведомления (ваш существующий ColumnLayout) ====
+        ColumnLayout {
+            Layout.fillHeight: true
+            Layout.preferredWidth: 400  // Фиксированная ширина для уведомлений
+            spacing: 10
 
-        // Панель выбора сотрудника
-        ComboBox {
-            id: employeeSelector
-            Layout.fillWidth: true
-            model: warehouseManager.employees
-            textRole: "name"
-
-            delegate: ItemDelegate {
-                width: parent.width
-                text: modelData.name + " (" + modelData.position + ")" +
-                      (modelDdata.warehouseID ? " - Склад " + modelData.warehouseID : "")
+            Label {
+                text: currentEmployee ? "🔔 Уведомления: " + currentEmployee.name : "🔔 Выберите сотрудника"
+                font.pixelSize: 18
+                font.bold: true
             }
 
-            onCurrentIndexChanged: {
-                if (currentIndex >= 0) {
-                    root.currentEmployee = model[currentIndex];
-                    console.log("Сотрудник выбран:", root.currentEmployee.name, "уведомлений:", root.currentEmployee.notifications.length);
-                } else {
-                    root.currentEmployee = null;
-                }
-            }
-        }
-
-        // Кнопки управления
-        RowLayout {
-            Layout.fillWidth: true
-            visible: currentEmployee !== null
-
-            Button {
-                text: "🗑️ Очистить"
+            ComboBox {
+                id: employeeSelector
                 Layout.fillWidth: true
-                onClicked: {
-                    if (currentEmployee) {
-                        currentEmployee.clearNotifications();
+                model: warehouseManager.employees
+                textRole: "name"
+
+                delegate: ItemDelegate {
+                    width: parent.width
+                    text: modelData.name + " (" + modelData.position + ")" +
+                          (modelData.warehouseID ? " - Склад " + modelData.warehouseID : "")
+                }
+
+                onCurrentIndexChanged: {
+                    if (currentIndex >= 0) {
+                        root.currentEmployee = model[currentIndex];
+                        console.log("Сотрудник выбран:", root.currentEmployee.name, "уведомлений:", root.currentEmployee.notifications.length);
+                    } else {
+                        root.currentEmployee = null;
                     }
                 }
             }
 
-            Button {
-                text: "📋 Все уведомления"
+            RowLayout {
                 Layout.fillWidth: true
-                onClicked: {
-                    // Показывать все уведомления
+                visible: currentEmployee !== null
+
+                Button {
+                    text: "🗑️ Очистить"
+                    Layout.fillWidth: true
+                    onClicked: {
+                        if (currentEmployee) {
+                            currentEmployee.clearNotifications();
+                        }
+                    }
+                }
+
+                Button {
+                    text: "📋 Все уведомления"
+                    Layout.fillWidth: true
+                    onClicked: {
+                        // Показывать все уведомления
+                    }
                 }
             }
-        }
 
-        // Список уведомлений
-        ListView {
-            id: notificationsList
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            Layout.minimumHeight: 120  // ← КЛЮЧЕВОЕ ИЗМЕНЕНИЕ: обеспечивает минимальную высоту
-            model: currentEmployee ? currentEmployee.notifications : []
-            spacing: 5
-            clip: true
+            ListView {
+                id: notificationsList
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.minimumHeight: 120
+                model: currentEmployee ? currentEmployee.notifications : []
+                spacing: 5
+                clip: true
 
-            delegate: Rectangle {
-                // Ширина с учётом прокрутки
-                width: notificationsList.width - 2 * notificationsList.spacing
-                // Автоматическая высота под текст
-                implicitHeight: notificationText.implicitHeight + 20
-                color: {
-                    if (modelData.includes("поставка") || modelData.includes("supply")) {
-                        return "#fff3cd";
-                    } else if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) {
-                        return "#f8d7da";
-                    } else if (modelData.includes("✅") || modelData.includes("успешно")) {
-                        return "#d4edda";
-                    } else {
+                delegate: Rectangle {
+                    width: notificationsList.width - 2 * notificationsList.spacing
+                    implicitHeight: notificationText.implicitHeight + 20
+                    color: {
+                        if (modelData.includes("поставка") || modelData.includes("supply")) return "#fff3cd";
+                        if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) return "#f8d7da";
+                        if (modelData.includes("✅") || modelData.includes("успешно")) return "#d4edda";
                         return "#e3f2fd";
                     }
-                }
-                border.color: {
-                    if (modelData.includes("поставка") || modelData.includes("supply")) {
-                        return "#ffc107";
-                    } else if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) {
-                        return "#dc3545";
-                    } else if (modelData.includes("✅") || modelData.includes("успешно")) {
-                        return "#28a745";
-                    } else {
+                    border.color: {
+                        if (modelData.includes("поставка") || modelData.includes("supply")) return "#ffc107";
+                        if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) return "#dc3545";
+                        if (modelData.includes("✅") || modelData.includes("успешно")) return "#28a745";
                         return "#2196f3";
                     }
+                    radius: 5
+
+                    Text {
+                        id: notificationText
+                        anchors {
+                            left: parent.left; right: parent.right
+                            verticalCenter: parent.verticalCenter
+                            margins: 10
+                        }
+                        text: modelData
+                        wrapMode: Text.Wrap
+                        font.pixelSize: 14
+                        width: parent.width - 20
+                    }
+
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: console.log("Уведомление:", modelData);
+                    }
                 }
-                radius: 5
 
                 Text {
-                    id: notificationText
-                    anchors {
-                        left: parent.left
-                        right: parent.right
-                        verticalCenter: parent.verticalCenter
-                        margins: 10
-                    }
-                    text: modelData
-                    wrapMode: Text.Wrap
-                    font.pixelSize: 14
-                    // Важно для правильного wrap
-                    width: parent.width - 20
-                }
-
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: {
-                        console.log("Уведомление:", modelData);
-                    }
+                    anchors.centerIn: parent
+                    text: "Нет уведомлений"
+                    visible: notificationsList.count === 0 && currentEmployee
+                    font.pixelSize: 16
+                    color: "#666"
                 }
             }
 
-            // Надпись "Нет уведомлений"
-            Text {
-                anchors.centerIn: parent
-                text: "Нет уведомлений"
-                visible: notificationsList.count === 0 && currentEmployee
-                font.pixelSize: 16
-                color: "#666"
+            Rectangle {
+                Layout.fillWidth: true
+                height: 30
+                visible: currentEmployee && currentEmployee.warehouseID
+                color: "#e8f5e9"
+                border.color: "#4caf50"
+                radius: 3
+
+                Text {
+                    anchors.centerIn: parent
+                    text: "🏢 Склад: " + currentEmployee.warehouseID
+                    color: "green"
+                    font.pixelSize: 12
+                }
             }
         }
 
-        // Информация о складе сотрудника
-        Rectangle {
-            Layout.fillWidth: true
-            height: 30
-            // Исправлена логика: сначала проверяем currentEmployee
-            visible: currentEmployee && currentEmployee.warehouseID
-            color: "#e8f5e9"
-            border.color: "#4caf50"
-            radius: 3
+        // ==== ПРАВАЯ ПАНЕЛЬ: Добавление склада ====
+        ColumnLayout {
+            Layout.fillHeight: true
+            Layout.preferredWidth: 300
+            spacing: 15
 
-            Text {
-                anchors.centerIn: parent
-                text: "🏢 Склад: " + currentEmployee.warehouseID
-                color: "green"
-                font.pixelSize: 12
+            Label {
+                text: "➕ Добавить склад"
+                font.pixelSize: 18
+                font.bold: true
             }
+
+            TextField {
+                id: warehouseIdField
+                Layout.fillWidth: true
+                placeholderText: "ID склада (например, WH-003)"
+            }
+
+            TextField {
+                id: addressField
+                Layout.fillWidth: true
+                placeholderText: "Адрес склада"
+            }
+
+            TextField {
+                id: capacityField
+                Layout.fillWidth: true
+                placeholderText: "Вместимость (целое число)"
+                inputMethodHints: Qt.ImhDigitsOnly
+            }
+
+            Button {
+                text: "✅ Добавить склад"
+                Layout.fillWidth: true
+                onClicked: {
+                    let id = warehouseIdField.text.trim();
+                    let addr = addressField.text.trim();
+                    let cap = parseInt(capacityField.text);
+
+                    if (!id || !addr || isNaN(cap) || cap <= 0) {
+                        console.log("Ошибка: заполните все поля корректно");
+                        // Можно показать Popup с ошибкой
+                        return;
+                    }
+
+                    // Вызов метода в C++
+                    if (warehouseManager.addWarehouse) {
+                        warehouseManager.addWarehouse(id, addr, cap);
+                        console.log("Склад добавлен:", id);
+                        // Очистить поля
+                        warehouseIdField.text = "";
+                        addressField.text = "";
+                        capacityField.text = "";
+                    } else {
+                        console.error("Метод addWarehouse не найден в warehouseManager!");
+                    }
+                }
+            }
+
+            // Опционально: список существующих складов
+            /*
+            ListView {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                Layout.minimumHeight: 100
+                model: warehouseManager.warehouses ? warehouseManager.warehouses : []
+                delegate: Text {
+                    text: modelData.warehouseID + " — " + modelData.address
+                }
+            }
+            */
         }
     }
 
-    // Инициализация
     Component.onCompleted: {
         if (warehouseManager.employees.length > 0) {
             employeeSelector.currentIndex = 0;
