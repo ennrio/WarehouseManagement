@@ -21,7 +21,7 @@ void Warehouse::addProduct(Product* product) {
         return;
     }
 
-    // ✅ ДОБАВЛЯЕМ В МАССИВ
+    //  ДОБАВЛЯЕМ В МАССИВ
     m_products.append(product);
 
     qDebug().noquote() << "\n[C++] Товар добавлен на склад" << m_warehouseID;
@@ -30,7 +30,7 @@ void Warehouse::addProduct(Product* product) {
     qDebug() << "  Тип:" << product->metaObject()->className();
     qDebug() << "  Всего товаров в m_products:" << m_products.size();
 
-    // ✅ ПОДКЛЮЧАЕМ СИГНАЛЫ
+
     connect(product, &Product::quantityChanged, this, [this, product]() {
         qDebug() << "[C++] Сигнал quantityChanged для товара:" << product->getName();
         emit productsChanged();
@@ -45,7 +45,7 @@ void Warehouse::addProduct(Product* product) {
         notifyObservers("просрочка: Товар '" + product->getName() + "' просрочен (истёк " + product->getExpirationDate().toString("dd.MM.yyyy") + ")");
         emit expirationWarning("Просрочен товар: " + product->getName());
     }
-    // ✅ ИСПУСКАЕМ СИГНАЛ ОБ ИЗМЕНЕНИИ ТОВАРОВ
+    //  ИСПУСКАЕМ СИГНАЛ ОБ ИЗМЕНЕНИИ ТОВАРОВ
     qDebug() << "[C++] Испускаем сигнал productsChanged()";
     emit productsChanged();
 

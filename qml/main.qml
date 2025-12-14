@@ -81,12 +81,6 @@ ApplicationWindow {
                     WarehouseList {
                         id: warehouseListComponent
                         anchors.fill: parent
-
-                        // ✅ УБЕРИТЕ ЭТУ СТРОКУ - сигнала нет
-                        // onWarehouseSelected: {
-                        //     root.selectedWarehouse = warehouse;
-                        //     console.log("Склад выбран:", warehouse.warehouseID);
-                        // }
                     }
 
                     // ВКЛАДКА 2: ТОВАРЫ

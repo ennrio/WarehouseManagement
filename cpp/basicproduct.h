@@ -5,12 +5,12 @@ class BasicProduct : public Product {
     Q_OBJECT
     Q_PROPERTY(QString productID READ getProductID CONSTANT)
     Q_PROPERTY(QString name READ getName CONSTANT)
-    Q_PROPERTY(QString category READ getCategory CONSTANT)  // ✅ Добавлено
-    Q_PROPERTY(QString manufacturer READ getManufacturer CONSTANT)  // ✅ Добавлено
+    Q_PROPERTY(QString category READ getCategory CONSTANT)
+    Q_PROPERTY(QString manufacturer READ getManufacturer CONSTANT)
     Q_PROPERTY(int quantity READ getQuantity NOTIFY quantityChanged)
-    Q_PROPERTY(double unitPrice READ getUnitPrice CONSTANT)  // ✅ Добавлено
+    Q_PROPERTY(double unitPrice READ getUnitPrice CONSTANT)
     Q_PROPERTY(QDate expirationDate READ getExpirationDate CONSTANT)
-    Q_PROPERTY(QDate arrivalDate READ getArrivalDate CONSTANT)  // ✅ Добавлено
+    Q_PROPERTY(QDate arrivalDate READ getArrivalDate CONSTANT)
     Q_PROPERTY(bool promotional READ isPromational CONSTANT)
     Q_PROPERTY(bool perishable READ isPerishable CONSTANT)
 

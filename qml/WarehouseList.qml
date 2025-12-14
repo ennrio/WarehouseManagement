@@ -8,7 +8,6 @@ ColumnLayout {
     anchors.fill: parent
     spacing: 10
 
-    // ✅ ДОБАВЬТЕ ЭТОТ СИГНАЛ!
     signal warehouseSelected(var warehouse)
 
     Label {
@@ -36,7 +35,6 @@ ColumnLayout {
                 anchors.fill: parent
                 onClicked: {
                     warehouseListView.currentIndex = index
-                    // ✅ ИСПУСКАЕМ СИГНАЛ
                     warehouseListRoot.warehouseSelected(model)
                 }
             }
@@ -75,7 +73,6 @@ ColumnLayout {
                     Button {
                         text: "👁️ Товары"
                         onClicked: {
-                            // ✅ ИСПУСКАЕМ СИГНАЛ И ПЕРЕКЛЮЧАЕМ ВКЛАДКУ
                             warehouseListRoot.warehouseSelected(model)
                             leftTabBar.currentIndex = 1
                         }

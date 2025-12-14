@@ -21,7 +21,7 @@ public:
 
     QString getStorageConditions() const { return m_storageConditions; }
 
-    // ✅ ОБЯЗАТЕЛЬНО: переопределяем все виртуальные методы
+    // переопределяем все виртуальные методы
     QString getProductID() const override { return ProductDecorator::getProductID(); }
     QString getName() const override { return ProductDecorator::getName(); }
     int getQuantity() const override { return ProductDecorator::getQuantity(); }
@@ -29,7 +29,7 @@ public:
     double getUnitPrice() const override { return ProductDecorator::getUnitPrice(); }
 
 signals:
-    // ✅ НАСЛЕДУЕМ СИГНАЛЫ
+    // НАСЛЕДУЕМ СИГНАЛЫ
     void quantityChanged();
     void expirationWarning();
 };

@@ -6,14 +6,13 @@ import QtQuick.Layouts
 ScrollView {
     id: root
     property var currentEmployee: null
-    // property var warehouseFilter: null  // не используется — можно удалить
 
     // Горизонтальное разделение: уведомления | добавление склада
     RowLayout {
         anchors.fill: parent
         spacing: 20
 
-        // ==== ЛЕВАЯ ПАНЕЛЬ: Уведомления (ваш существующий ColumnLayout) ====
+        // ==== ЛЕВАЯ ПАНЕЛЬ: Уведомления
         ColumnLayout {
             Layout.fillHeight: true
             Layout.preferredWidth: 400  // Фиксированная ширина для уведомлений
@@ -200,18 +199,7 @@ ScrollView {
                 }
             }
 
-            // Опционально: список существующих складов
-            /*
-            ListView {
-                Layout.fillWidth: true
-                Layout.fillHeight: true
-                Layout.minimumHeight: 100
-                model: warehouseManager.warehouses ? warehouseManager.warehouses : []
-                delegate: Text {
-                    text: modelData.warehouseID + " — " + modelData.address
-                }
-            }
-            */
+
         }
     }
 
