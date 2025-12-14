@@ -25,6 +25,7 @@ private:
         for (auto p : m_products) list.append(p);
         return list;
     }
+    QMap<QString, QList<IObserver*>> m_warehouseObservers;
 
 public:
     Warehouse(const QString& id, const QString& address, int capacity, QObject* parent = nullptr);
@@ -110,6 +111,9 @@ public:
         }
         return result;
     }
+
+    void attachObserver(IObserver* observer, const QString& warehouseID);
+    void notifyObservers(const QString& message, const QString& warehouseID, const QString& prefix = "");
 
 
 signals:

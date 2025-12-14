@@ -71,15 +71,29 @@ QList<QObject*> WarehouseManager::getSuppliers() {
     return list;
 }
 
-void WarehouseManager::addEmployee(const QString& id, const QString& name, const QString& position, const QString& contactInfo) {
+void WarehouseManager::addEmployee(const QString &id, const QString &name, const QString &position, const QString &contactInfo, const QString &warehouseID)
+{
     auto employee = new Employee(id, name, position, contactInfo, this);
+
+    // Привязываем к конкретному складу, если указан
+    if (!warehouseID.isEmpty()) {
+        employee->setWarehouseID(warehouseID);
+        Warehouse* wh = getWarehouse(warehouseID);
+        if (wh) {
+            wh->addObserver(employee);
+        }
+    } else {
+        // Если склад не указан — подписываем на все (как было раньше)
+        for (auto warehouse : m_warehouses) {
+            warehouse->addObserver(employee);
+        }
+    }
+
     m_employees.append(employee);
     emit employeesChanged();
-
-    for (auto warehouse : m_warehouses) {
-        warehouse->addObserver(employee);
-    }
 }
+
+
 
 QList<QObject*> WarehouseManager::getEmployees() {
     QList<QObject*> list;
@@ -163,9 +177,12 @@ void WarehouseManager::createSupply(const QString& supplyID, const QString& supp
         emit suppliesChanged();
     });
 
+
     emit suppliesChanged();
     emit notification("✅ Поставка создана: " + supplyID);
     qDebug() << "Supply created and added to list. Total supplies:" << m_supplies.size();
+    QString message = "Поставка " + supplyID + " успешно подтверждена и размещена на складе.";
+
 }
 
 void WarehouseManager::confirmSupply(const QString& supplyID, const QString& warehouseID) {
@@ -186,7 +203,7 @@ void WarehouseManager::confirmSupply(const QString& supplyID, const QString& war
 
     // Добавляем товары на склад
     supply->addToWarehouse(warehouse);
-
+    warehouse->notifyObservers("поставка: Поставка " + supplyID + " успешно подтверждена и размещена на складе " + warehouseID);
     emit suppliesChanged();
     emit notification("✅ Поставка " + supplyID + " подтверждена и добавлена на склад " + warehouseID);
 }
@@ -231,6 +248,7 @@ ExpiredReport *WarehouseManager::generateExpiredReport(Warehouse *warehouse, con
     if (!warehouse) return nullptr;
     ExpiredReportFactory factory(warehouse);
     Report* report = generateReport(&factory, reportId);
+
     return static_cast<ExpiredReport*>(report);
 }
 

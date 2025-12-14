@@ -44,7 +44,7 @@ public:
     Q_INVOKABLE QList<QObject*> getSuppliers();
 
     // Управление сотрудниками
-    Q_INVOKABLE void addEmployee(const QString& id, const QString& name, const QString& position, const QString& contactInfo);
+    Q_INVOKABLE void addEmployee(const QString& id, const QString& name, const QString& position, const QString& contactInfo,const QString& warehouseID = "");
     Q_INVOKABLE QList<QObject*> getEmployees();
 
     // Обработка поставок

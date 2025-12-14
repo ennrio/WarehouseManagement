@@ -40,6 +40,11 @@ void Warehouse::addProduct(Product* product) {
         emit expirationWarning("⚠️ Товар скоро испортится: " + product->getName());
     });
 
+    // Проверка просрочки
+    if (product->getExpirationDate().isValid() && product->getExpirationDate() < QDate::currentDate()) {
+        notifyObservers("просрочка: Товар '" + product->getName() + "' просрочен (истёк " + product->getExpirationDate().toString("dd.MM.yyyy") + ")");
+        emit expirationWarning("Просрочен товар: " + product->getName());
+    }
     // ✅ ИСПУСКАЕМ СИГНАЛ ОБ ИЗМЕНЕНИИ ТОВАРОВ
     qDebug() << "[C++] Испускаем сигнал productsChanged()";
     emit productsChanged();
@@ -110,7 +115,9 @@ QList<Product*> Warehouse::searchProducts(const QString& keyword) {
 }
 
 void Warehouse::addObserver(IObserver* observer) {
-    m_observers.append(observer);
+    if (!m_observers.contains(observer)) {
+        m_observers.append(observer);
+    }
 }
 
 void Warehouse::removeObserver(IObserver* observer) {
@@ -133,5 +140,25 @@ void Warehouse::checkStockLevel() {
                               " (осталось: " + QString::number(product->getQuantity()) + ")");
         }
         product->checkExpiration();
+        if (product->getExpirationDate().isValid() && product->getExpirationDate() < QDate::currentDate()) {
+            notifyObservers("просрочка: Товар '" + product->getName() + "' просрочен (истёк " +
+                            product->getExpirationDate().toString("dd.MM.yyyy") + ")");
+        }
+    }
+}
+
+void Warehouse::attachObserver(IObserver *observer, const QString &warehouseID)
+{
+    m_warehouseObservers[warehouseID].append(observer);
+}
+
+void Warehouse::notifyObservers(const QString &message, const QString &warehouseID, const QString &prefix)
+{
+    QString fullMessage = prefix.isEmpty() ? message : (prefix + ": " + message);
+    auto it = m_warehouseObservers.find(warehouseID);
+    if (it != m_warehouseObservers.end()) {
+        for (IObserver* obs : *it) {
+            obs->update(fullMessage);
+        }
     }
 }

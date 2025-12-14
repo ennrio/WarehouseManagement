@@ -62,10 +62,10 @@ template <> constexpr inline auto WarehouseManager::qt_create_metaobjectdata<qt_
         "addEmployee",
         "name",
         "position",
+        "warehouseID",
         "getEmployees",
         "processSupply",
         "supplyID",
-        "warehouseID",
         "createSupply",
         "supplierID",
         "date",
@@ -125,28 +125,33 @@ template <> constexpr inline auto WarehouseManager::qt_create_metaobjectdata<qt_
         // Method 'getSuppliers'
         QtMocHelpers::MethodData<QList<QObject*>()>(19, 2, QMC::AccessPublic, 0x80000000 | 15),
         // Method 'addEmployee'
-        QtMocHelpers::MethodData<void(const QString &, const QString &, const QString &, const QString &)>(20, 2, QMC::AccessPublic, QMetaType::Void, {{
+        QtMocHelpers::MethodData<void(const QString &, const QString &, const QString &, const QString &, const QString &)>(20, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 9 }, { QMetaType::QString, 21 }, { QMetaType::QString, 22 }, { QMetaType::QString, 18 },
+            { QMetaType::QString, 23 },
+        }}),
+        // Method 'addEmployee'
+        QtMocHelpers::MethodData<void(const QString &, const QString &, const QString &, const QString &)>(20, 2, QMC::AccessPublic | QMC::MethodCloned, QMetaType::Void, {{
             { QMetaType::QString, 9 }, { QMetaType::QString, 21 }, { QMetaType::QString, 22 }, { QMetaType::QString, 18 },
         }}),
         // Method 'getEmployees'
-        QtMocHelpers::MethodData<QList<QObject*>()>(23, 2, QMC::AccessPublic, 0x80000000 | 15),
+        QtMocHelpers::MethodData<QList<QObject*>()>(24, 2, QMC::AccessPublic, 0x80000000 | 15),
         // Method 'processSupply'
-        QtMocHelpers::MethodData<void(const QString &, const QString &)>(24, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 25 }, { QMetaType::QString, 26 },
+        QtMocHelpers::MethodData<void(const QString &, const QString &)>(25, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 26 }, { QMetaType::QString, 23 },
         }}),
         // Method 'createSupply'
         QtMocHelpers::MethodData<void(const QString &, const QString &, const QString &, const QVariantList &)>(27, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 25 }, { QMetaType::QString, 28 }, { QMetaType::QString, 29 }, { 0x80000000 | 30, 31 },
+            { QMetaType::QString, 26 }, { QMetaType::QString, 28 }, { QMetaType::QString, 29 }, { 0x80000000 | 30, 31 },
         }}),
         // Method 'confirmSupply'
         QtMocHelpers::MethodData<void(const QString &, const QString &)>(32, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 25 }, { QMetaType::QString, 26 },
+            { QMetaType::QString, 26 }, { QMetaType::QString, 23 },
         }}),
         // Method 'getSupplies'
         QtMocHelpers::MethodData<QList<QObject*>()>(33, 2, QMC::AccessPublic, 0x80000000 | 15),
         // Method 'getSupply'
         QtMocHelpers::MethodData<Supply *(const QString &)>(34, 2, QMC::AccessPublic, 0x80000000 | 35, {{
-            { QMetaType::QString, 25 },
+            { QMetaType::QString, 26 },
         }}),
         // Method 'generateReport'
         QtMocHelpers::MethodData<Report *(ReportFactory *, const QString &)>(36, 2, QMC::AccessPublic, 0x80000000 | 37, {{
@@ -208,23 +213,24 @@ void WarehouseManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 8: _t->addSupplier((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3]))); break;
         case 9: { QList<QObject*> _r = _t->getSuppliers();
             if (_a[0]) *reinterpret_cast<QList<QObject*>*>(_a[0]) = std::move(_r); }  break;
-        case 10: _t->addEmployee((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4]))); break;
-        case 11: { QList<QObject*> _r = _t->getEmployees();
+        case 10: _t->addEmployee((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[5]))); break;
+        case 11: _t->addEmployee((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4]))); break;
+        case 12: { QList<QObject*> _r = _t->getEmployees();
             if (_a[0]) *reinterpret_cast<QList<QObject*>*>(_a[0]) = std::move(_r); }  break;
-        case 12: _t->processSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
-        case 13: _t->createSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QVariantList>>(_a[4]))); break;
-        case 14: _t->confirmSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
-        case 15: { QList<QObject*> _r = _t->getSupplies();
+        case 13: _t->processSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 14: _t->createSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QVariantList>>(_a[4]))); break;
+        case 15: _t->confirmSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 16: { QList<QObject*> _r = _t->getSupplies();
             if (_a[0]) *reinterpret_cast<QList<QObject*>*>(_a[0]) = std::move(_r); }  break;
-        case 16: { Supply* _r = _t->getSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])));
+        case 17: { Supply* _r = _t->getSupply((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])));
             if (_a[0]) *reinterpret_cast<Supply**>(_a[0]) = std::move(_r); }  break;
-        case 17: { Report* _r = _t->generateReport((*reinterpret_cast<std::add_pointer_t<ReportFactory*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+        case 18: { Report* _r = _t->generateReport((*reinterpret_cast<std::add_pointer_t<ReportFactory*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<Report**>(_a[0]) = std::move(_r); }  break;
-        case 18: { StockReport* _r = _t->generateStockReport((*reinterpret_cast<std::add_pointer_t<Warehouse*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+        case 19: { StockReport* _r = _t->generateStockReport((*reinterpret_cast<std::add_pointer_t<Warehouse*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<StockReport**>(_a[0]) = std::move(_r); }  break;
-        case 19: { ExpiredReport* _r = _t->generateExpiredReport((*reinterpret_cast<std::add_pointer_t<Warehouse*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+        case 20: { ExpiredReport* _r = _t->generateExpiredReport((*reinterpret_cast<std::add_pointer_t<Warehouse*>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<ExpiredReport**>(_a[0]) = std::move(_r); }  break;
-        case 20: { QString _r = _t->saveReportAsPdf((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+        case 21: { QString _r = _t->saveReportAsPdf((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
@@ -232,21 +238,21 @@ void WarehouseManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 17:
+        case 18:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< ReportFactory* >(); break;
             }
             break;
-        case 18:
+        case 19:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< Warehouse* >(); break;
             }
             break;
-        case 19:
+        case 20:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
@@ -308,14 +314,14 @@ int WarehouseManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 21)
+        if (_id < 22)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 21;
+        _id -= 22;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 21)
+        if (_id < 22)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 21;
+        _id -= 22;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

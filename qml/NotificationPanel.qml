@@ -1,3 +1,4 @@
+// NotificationPanel.qml
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
@@ -27,19 +28,23 @@ ScrollView {
             delegate: ItemDelegate {
                 width: parent.width
                 text: modelData.name + " (" + modelData.position + ")" +
-                      (modelData.warehouseID ? " - Склад " + modelData.warehouseID : "")
+                      (modelDdata.warehouseID ? " - Склад " + modelData.warehouseID : "")
             }
 
             onCurrentIndexChanged: {
                 if (currentIndex >= 0) {
                     root.currentEmployee = model[currentIndex];
+                    console.log("Сотрудник выбран:", root.currentEmployee.name, "уведомлений:", root.currentEmployee.notifications.length);
+                } else {
+                    root.currentEmployee = null;
                 }
             }
         }
 
+        // Кнопки управления
         RowLayout {
             Layout.fillWidth: true
-            visible: currentEmployee
+            visible: currentEmployee !== null
 
             Button {
                 text: "🗑️ Очистить"
@@ -65,17 +70,20 @@ ScrollView {
             id: notificationsList
             Layout.fillWidth: true
             Layout.fillHeight: true
+            Layout.minimumHeight: 120  // ← КЛЮЧЕВОЕ ИЗМЕНЕНИЕ: обеспечивает минимальную высоту
             model: currentEmployee ? currentEmployee.notifications : []
             spacing: 5
             clip: true
 
             delegate: Rectangle {
-                width: notificationsList.width - 5
-                height: notificationText.height + 20
+                // Ширина с учётом прокрутки
+                width: notificationsList.width - 2 * notificationsList.spacing
+                // Автоматическая высота под текст
+                implicitHeight: notificationText.implicitHeight + 20
                 color: {
                     if (modelData.includes("поставка") || modelData.includes("supply")) {
                         return "#fff3cd";
-                    } else if (modelData.includes("⚠️") || modelData.includes("низкий")) {
+                    } else if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) {
                         return "#f8d7da";
                     } else if (modelData.includes("✅") || modelData.includes("успешно")) {
                         return "#d4edda";
@@ -86,7 +94,7 @@ ScrollView {
                 border.color: {
                     if (modelData.includes("поставка") || modelData.includes("supply")) {
                         return "#ffc107";
-                    } else if (modelData.includes("⚠️") || modelData.includes("низкий")) {
+                    } else if (modelData.includes("⚠️") || modelData.includes("низкий") || modelData.includes("просрочка")) {
                         return "#dc3545";
                     } else if (modelData.includes("✅") || modelData.includes("успешно")) {
                         return "#28a745";
@@ -107,6 +115,8 @@ ScrollView {
                     text: modelData
                     wrapMode: Text.Wrap
                     font.pixelSize: 14
+                    // Важно для правильного wrap
+                    width: parent.width - 20
                 }
 
                 MouseArea {
@@ -117,6 +127,7 @@ ScrollView {
                 }
             }
 
+            // Надпись "Нет уведомлений"
             Text {
                 anchors.centerIn: parent
                 text: "Нет уведомлений"
@@ -130,6 +141,7 @@ ScrollView {
         Rectangle {
             Layout.fillWidth: true
             height: 30
+            // Исправлена логика: сначала проверяем currentEmployee
             visible: currentEmployee && currentEmployee.warehouseID
             color: "#e8f5e9"
             border.color: "#4caf50"

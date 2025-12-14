@@ -41,25 +41,37 @@ template <> constexpr inline auto Employee::qt_create_metaobjectdata<qt_meta_tag
         "Employee",
         "notificationsChanged",
         "",
-        "employeeID",
+        "warehouseIDChanged",
+        "clearNotifications",
+        "id",
         "name",
         "position",
-        "notifications"
+        "contactInfo",
+        "notifications",
+        "warehouseID"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'notificationsChanged'
         QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'warehouseIDChanged'
+        QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
+        // Method 'clearNotifications'
+        QtMocHelpers::MethodData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
-        // property 'employeeID'
-        QtMocHelpers::PropertyData<QString>(3, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
-        // property 'name'
-        QtMocHelpers::PropertyData<QString>(4, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
-        // property 'position'
+        // property 'id'
         QtMocHelpers::PropertyData<QString>(5, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
+        // property 'name'
+        QtMocHelpers::PropertyData<QString>(6, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
+        // property 'position'
+        QtMocHelpers::PropertyData<QString>(7, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
+        // property 'contactInfo'
+        QtMocHelpers::PropertyData<QString>(8, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Constant),
         // property 'notifications'
-        QtMocHelpers::PropertyData<QStringList>(6, QMetaType::QStringList, QMC::DefaultPropertyFlags, 0),
+        QtMocHelpers::PropertyData<QStringList>(9, QMetaType::QStringList, QMC::DefaultPropertyFlags, 0),
+        // property 'warehouseID'
+        QtMocHelpers::PropertyData<QString>(10, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 1),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -82,20 +94,33 @@ void Employee::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->notificationsChanged(); break;
+        case 1: _t->warehouseIDChanged(); break;
+        case 2: _t->clearNotifications(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (Employee::*)()>(_a, &Employee::notificationsChanged, 0))
             return;
+        if (QtMocHelpers::indexOfMethod<void (Employee::*)()>(_a, &Employee::warehouseIDChanged, 1))
+            return;
     }
     if (_c == QMetaObject::ReadProperty) {
         void *_v = _a[0];
         switch (_id) {
-        case 0: *reinterpret_cast<QString*>(_v) = _t->getEmployeeID(); break;
-        case 1: *reinterpret_cast<QString*>(_v) = _t->getName(); break;
-        case 2: *reinterpret_cast<QString*>(_v) = _t->getPosition(); break;
-        case 3: *reinterpret_cast<QStringList*>(_v) = _t->getNotifications(); break;
+        case 0: *reinterpret_cast<QString*>(_v) = _t->id(); break;
+        case 1: *reinterpret_cast<QString*>(_v) = _t->name(); break;
+        case 2: *reinterpret_cast<QString*>(_v) = _t->position(); break;
+        case 3: *reinterpret_cast<QString*>(_v) = _t->contactInfo(); break;
+        case 4: *reinterpret_cast<QStringList*>(_v) = _t->notifications(); break;
+        case 5: *reinterpret_cast<QString*>(_v) = _t->warehouseID(); break;
+        default: break;
+        }
+    }
+    if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 5: _t->setWarehouseID(*reinterpret_cast<QString*>(_v)); break;
         default: break;
         }
     }
@@ -122,20 +147,20 @@ int Employee::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 6;
     }
     return _id;
 }
@@ -144,5 +169,11 @@ int Employee::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void Employee::notificationsChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void Employee::warehouseIDChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 QT_WARNING_POP
